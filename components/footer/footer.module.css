@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  padding: 1rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  }
+  .dvago_pk{
+    margin-left: 0.5rem;
+    display: inline-block;
+    font-weight: 600;
+    color: #00c500;
+    transition:all 0.5s;
+  }
+  .dvago_pk:hover{
+    color:#111111;
+  }

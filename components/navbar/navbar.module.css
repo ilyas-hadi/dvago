@@ -1,0 +1,92 @@
+.form_item {
+    width: 260px;
+    position: relative;
+}
+.form_item input {
+    padding: 9.6px 40px 8px 40px;
+    width: 100%;
+    border: 1px solid #cecece;
+    border-radius: 4px;
+    outline: none;
+    transition: all 0.5s;
+}
+.form_item > svg, .form_item > img, .form_item  img.right {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+ .form_item  img.right{
+    
+    right: 6px;
+    left: inherit;
+
+}
+.nav_items {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.navList__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.logo_dev a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_item input::placeholder {
+    color: #cecece;
+    transition: all 0.5s;
+}
+
+.form_item input:focus {
+    border-color: #5abe33;
+}
+
+.form_item input:focus::placeholder {
+    color: #5abe33;
+}
+/* buttons and slect filds */
+.theme_btn {
+    background: #76bc21;
+    padding: 8px 22px;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.theme_btn button {
+    border: none;
+    background: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button_group.theme_btn {
+    display: flex;
+    align-items: center;
+}
+
+.theme_btn button svg {
+    margin-right: 0.5rem;
+}
+
+.theme_btn:hover {
+    background: #1c9b07;
+}
